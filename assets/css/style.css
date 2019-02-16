@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+/* .navbar {
+    display: inline;
+    grid-template-columns: 5fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    padding-bottom: 0px;
+    border-bottom: solid lightgray;
+    padding-left: 300px;
+} */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.container {
+    background-color: #EFEFEF;
+    height: 100%;
+}
+.navbar {
+    background-color: white;
+    border-bottom: solid lightgray; 
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+li {
+    padding-left: 360px;
+    display: inline-block;
+    border-right: 2px solid lightgray;
+    text-align: center;
+}
+li:first-child {
+    border: none;
+}
+li:last-child {
+    border: none;
+}
+#MyName {
+    background-color: #4AAAA5;
+    width: 250px;
+    height: 70px;
+    padding-top: 20px;
+    padding-right: 5px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#AboutLink {
+    margin-top: 25px;
+    padding-left: 0px;
+    color: gray;
+    /* text-decoration: none; */
+    font-size: 17px;
+    text-align: center;
+}
+#PortfolioLink {
+    margin-top: 25px;
+    padding-left: 0px;
+    color: gray;
+    /* text-decoration: none; */
+    font-size: 17px;
+    text-align: center;
+}
+#ContactLink {
+    margin-top: 25px;
+    padding-right: px;
+    color: gray;
+    /* text-decoration: none; */
+    font-size: 17px;
+    text-align: center;
+}
+.box {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 4fr 1fr;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 500px;
+    text-align:center; 
+}
+#contact {
+    color: #4AAAA5;
+    font-size: 25px;
+    text-align: left;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    border-bottom: 2px solid lightgray;
+    margin: auto; 
+    width: 1150px;
+    height: auto;
+}
+#name {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    font-size: 15px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.textbox {
+    padding-left: 25px; 
+}
